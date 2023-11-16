@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* ### Primary */
+
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  /* ### Neutral */
+
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Configurações gerais */
+.description h1 {
+  color: var(--Grayish-Blue);
+  font-weight: 200;
+}
+
+.description h3 {
+  color: var(--Very-Dark-Blue);
+  font-weight: 600;
+}
+
+.description p {
+  color: var(--Grayish-Blue);
+  line-height: 1.5;
+}
+
+/* Configuração de Cor na Borda do Topo dos cards */
+.line-green {
+  border-top: 5px solid var(--Cyan)
+}
+
+.line-red {
+border-top: 5px solid var(--Red);
+}
+
+.line-yellow{border-top: 5px solid var(--Orange)}
+
+.line-blue {
+  border-top: 5px solid var(--Blue);
+}
+
+.card-style {
+  box-shadow: 2px 2px 30px 1px var(--Grayish-Blue);
+  border-radius: 7px;
+}
+
+.card-style h2 {
+  color: var(--Very-Dark-Blue);
+  margin-bottom: 10px;
+}
+
+.card-style p {
+  color: var(--Grayish-Blue);
+  margin-bottom: 30px;
+}
+
+.card-style img {
+  float: right;
+}
+
+/* Inicio Desktop */
+
+/* Fim Desktop */
+
+
+/* Inicio Mobile */
+@media screen and (max-width: 375px) {
+  .card {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description h1,
+  .description h3 {
+    font-size: 1.5rem;
+  }
+
+  .description h3 {
+    margin-bottom: 20px;
+
+  }
+
+  .description {
+    margin: 50px 30px;
+  }
+
+  .card-style {
+    width: 340px;
+    margin-bottom: 25px;
+    padding: 25px;
+  }
+}
+/* Final Mobile */
+
+/* Footer Descrição do criador do projeto */
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
