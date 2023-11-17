@@ -1,12 +1,12 @@
 
 ### Screenshot
 
-![](../images/screenshot.jpg)
+![](../images/four-card.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/davidOliveira1995)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages]( https://davidoliveira1995.github.io/four-card-feature-section-master/)
 
 ### Built with
 
@@ -17,5 +17,5 @@
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@davidOliveira1995](https://www.frontendmentor.io/profile/davidOliveira1995)
 
