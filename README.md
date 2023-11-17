@@ -1,7 +1,7 @@
 
 ### Screenshot
 
-![](../images/four-card.png)
+![](images/four-card.png)
 
 ### Links
 
